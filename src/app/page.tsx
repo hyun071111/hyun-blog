@@ -19,7 +19,9 @@ export default async function Home() {
     <div className='w-full flex flex-col items-center px-4 py-8'>
       <div className='max-w-6xl w-full grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-4 grid'>
         {posts.map((post) => (
-          <div key={post.slug} className='border rounded-lg shadow-md'>
+          <div
+            key={post.slug}
+            className='border border-black/10 rounded-lg shadow-md'>
             <Image
               src={
                 post.metadata.image ||
