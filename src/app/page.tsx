@@ -39,7 +39,7 @@ export default async function Home() {
               <p className='text-gray-600 mb-4'>{post.metadata.description}</p>
               <Link
                 href={`/posts/${post.slug}`}
-                className='text-blue-500 hover:underline'>
+                className='text-purple-500 hover:underline'>
                 Read more
               </Link>
             </div>
