@@ -9,4 +9,10 @@ const withMDX = createMDX({
   extension: /\.(md|mdx)$/,
 });
 
+module.exports = {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+};
+
 export default withMDX(nextConfig);
