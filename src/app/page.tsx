@@ -14,15 +14,20 @@ import {
   Terminal,
   Zap,
 } from 'lucide-react';
-import { image } from 'motion/react-client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import path from 'path';
 
+interface PostMetadata {
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
 export default async function Home() {
   // MDX 파일 읽기
-  // @ts-ignore
-  let posts: Array<{ slug: string; metadata: any }> = [];
+  let posts: Array<{ slug: string; metadata: PostMetadata }> = [];
 
   try {
     const dir = path.join(process.cwd(), 'src', 'content');
@@ -329,8 +334,7 @@ export default async function Home() {
                   <Image
                     src={
                       post.metadata.image ||
-                      `/placeholder.svg?height=630&width=1200` ||
-                      image
+                      `/placeholder.svg?height=630&width=1200`
                     }
                     alt={post.metadata.title || post.slug}
                     className='w-full object-cover rounded-t-lg mb-4 aspect-[1200/630]'
