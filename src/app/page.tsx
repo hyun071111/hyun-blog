@@ -17,6 +17,7 @@ import {
   Zap,
   GraduationCap,
 } from "lucide-react"
+import { image } from "motion/react-client"
 
 export default async function Home() {
   // MDX 파일 읽기
@@ -41,9 +42,9 @@ export default async function Home() {
             return {
               slug,
               metadata: {
-                title: slug,
+                src: `/img/${slug}.jpg`,
                 description: "설명이 없습니다.",
-                image: null,
+                image: "",
               },
             }
           }
@@ -298,7 +299,7 @@ export default async function Home() {
                   className="border border-black/10 rounded-lg shadow-md hover:shadow-lg transition-shadow"
                 >
                   <Image
-                    src={post.metadata.image || `/placeholder.svg?height=630&width=1200` || "/placeholder.svg"}
+                    src={post.metadata.image || `/placeholder.svg?height=630&width=1200` || image}
                     alt={post.metadata.title || post.slug}
                     className="w-full object-cover rounded-t-lg mb-4 aspect-[1200/630]"
                     width={1200}
