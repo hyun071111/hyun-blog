@@ -14,7 +14,6 @@ import {
   Terminal,
   Zap,
 } from 'lucide-react';
-
 import Image from 'next/image';
 import Link from 'next/link';
 import path from 'path';
@@ -272,7 +271,7 @@ export default async function Home() {
                 <Calendar className='w-4 h-4' />
                 <span className='text-sm text-gray-600'>2024.12.20</span>
               </div>
-              <p className='font-semibold'>서울디지텍고등학교 졸업사</p>
+              <p className='font-semibold'>서울디지텍고등학교 졸업</p>
               <p className='text-sm text-gray-600'>서울디지텍고등학교</p>
             </div>
             <div className='border-l-4 border-yellow-500 pl-4'>
