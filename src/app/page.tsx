@@ -269,14 +269,6 @@ export default async function Home() {
             <div className='border-l-4 border-yellow-500 pl-4'>
               <div className='flex items-center gap-2 mb-1'>
                 <Calendar className='w-4 h-4' />
-                <span className='text-sm text-gray-600'>2024.12.20</span>
-              </div>
-              <p className='font-semibold'>서울디지텍고등학교 졸업</p>
-              <p className='text-sm text-gray-600'>서울디지텍고등학교</p>
-            </div>
-            <div className='border-l-4 border-yellow-500 pl-4'>
-              <div className='flex items-center gap-2 mb-1'>
-                <Calendar className='w-4 h-4' />
                 <span className='text-sm text-gray-600'>2024.12.19</span>
               </div>
               <p className='font-semibold'>SW 동행 데모데이 대상</p>
