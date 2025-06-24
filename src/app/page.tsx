@@ -7,6 +7,7 @@ import {
   Container,
   Database,
   GitBranch,
+  Github,
   GraduationCap,
   Mail,
   Phone,
@@ -79,6 +80,12 @@ export default async function Home() {
               <div className='flex items-center gap-2'>
                 <Mail className='w-5 h-5' />
                 <span>jisaki07@gmail.com</span>
+              </div>
+              <div className='flex items-center gap-2'>
+                <Github className='w-5 h-5' />
+                <a href='https://github.com/hyun071111'>
+                  <span>hyun071111</span>
+                </a>
               </div>
             </div>
           </div>
