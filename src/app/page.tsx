@@ -233,7 +233,7 @@ export default async function Home() {
               <p className='font-semibold'>
                 습지와 온도 상관관계 분석 웹페이지 개발 및 데모데이 우수 운영
               </p>
-              <p className='text-sm text-gray-600'>해동빌딩 스테이지</p>
+              <p className='text-sm text-gray-600'>파이팩토리 스튜디오</p>
             </div>
             <div className='border-l-4 border-purple-500 pl-4'>
               <div className='flex items-center gap-2 mb-1'>
@@ -250,7 +250,7 @@ export default async function Home() {
                 <Calendar className='w-4 h-4' />
                 <span className='text-sm text-gray-600'>2024.03 ~ 현재</span>
               </div>
-              <p className='font-semibold'>서울디지털고 해킹보안 동아리 ROOT</p>
+              <p className='font-semibold'>서울디지텍고 해킹보안 동아리 ROOT</p>
               <p className='text-sm text-gray-600'>부회장</p>
             </div>
           </div>
@@ -289,7 +289,7 @@ export default async function Home() {
               <p className='font-semibold'>
                 공간정보 웹/앱 활용 경진대회 최우수상
               </p>
-              <p className='text-sm text-gray-600'>서울디지털고등학교</p>
+              <p className='text-sm text-gray-600'>서울디지텍고등학교</p>
             </div>
             <div className='border-l-4 border-yellow-500 pl-4'>
               <div className='flex items-center gap-2 mb-1'>
@@ -297,7 +297,7 @@ export default async function Home() {
                 <span className='text-sm text-gray-600'>2024.11.22</span>
               </div>
               <p className='font-semibold'>공간정보 골든벨 최우수상</p>
-              <p className='text-sm text-gray-600'>서울디지털고등학교</p>
+              <p className='text-sm text-gray-600'>서울디지텍고등학교</p>
             </div>
             <div className='border-l-4 border-yellow-500 pl-4'>
               <div className='flex items-center gap-2 mb-1'>
